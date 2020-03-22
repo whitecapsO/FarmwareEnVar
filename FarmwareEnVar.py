@@ -8,6 +8,8 @@ import os
 evName = get_config_value(farmware_name='FarmwareEnVar', config_name='evName', value_type=str)
 evValue = get_config_value(farmware_name='FarmwareEnVar', config_name='evValue', value_type=str)
 
+device.log(message="Creating environment variable: " + str(evName) + " value is: " + str(evValue), message_type="success")
+
 #
 if evName != "":
     # Check if the environment variable already exists and if so set the value
