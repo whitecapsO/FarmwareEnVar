@@ -1,17 +1,12 @@
-#!/usr/bin/env python
-
-'''FarmwareEnVar
-Farmware that creates a new or updates an existing enviroment variable on the Raspberry Pi.
-'''
-import os
 from farmware_tools import app
 from farmware_tools import device
 from farmware_tools import env
 from farmware_tools import get_config_value
+import os
 
 # Load the arguements
-evName = get_config_value(farmware_name='FarmwareEnVar', config_name='name', value_type=str)
-evValue = get_config_value(farmware_name='FarmwareEnVar', config_name='value', value_type=str)
+evName = get_config_value(farmware_name='FarmwareEnVar', config_name='evName', value_type=str)
+evValue = get_config_value(farmware_name='FarmwareEnVar', config_name='evValue', value_type=str)
 
 #
 if evName != "":
