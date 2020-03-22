@@ -1,10 +1,10 @@
-{
+   {
 	"package": "FarmwareEnVar",
 	"language": "python",
-	"author": "Whitecaps",
-	"description": "Farmware that creates a new or updates an existing enviroment variable on the Raspberry Pi",
+	"author": "WhitecapsO",
+	"description": "Farmware that creates a new or updates an existing enviroment variable on the Raspberry Pi.",
 	"farmware_manifest_version": "2.0.0",
-	"package_version": "1.0.5",
+	"package_version": "1.0.6",
 	"farmbot_os_version_requirement": ">= 8.0.0",
 	"url": "https://raw.githubusercontent.com/whitecapsO/FarmwareEnVar/master/manifest.json",
 	"zip": "https://github.com/whitecapsO/FarmwareEnVar/archive/master.zip",
