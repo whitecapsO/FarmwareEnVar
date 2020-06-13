@@ -4,14 +4,14 @@
 	"author": "WhitecapsO",
 	"description": "Farmware that creates a new or updates an existing enviroment variable on the Raspberry Pi.",
 	"farmware_manifest_version": "2.0.0",
-	"package_version": "1.0.1",
+	"package_version": "1.0.2",
 	"farmbot_os_version_requirement": ">= 8.0.0",
 	"url": "https://raw.githubusercontent.com/whitecapsO/FarmwareEnVar/master/manifest.json",
 	"zip": "https://github.com/whitecapsO/FarmwareEnVar/archive/master.zip",
 	"executable": "python",
 	"args": "FarmwareEnVar-master/FarmwareEnVar.py",
 	"config": {
-	   "1": {"name": "evName", "label": "Name of the environment variable", "value": "0"},
-	   "2": {"name": "evValue", "label": "Value of the environment variable", "value": "0"}
+	   "1": {"name": "evName", "label": "Name of the environment variable", "value": ""},
+	   "2": {"name": "evValue", "label": "Value of the environment variable", "value": ""}
 	}
    }
